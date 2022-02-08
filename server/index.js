@@ -15,7 +15,6 @@ app.post('/', (req, res) => {
     else{
         res.sendStatus(400)    
     }
-    
 })
 
 app.listen(port, () => {
